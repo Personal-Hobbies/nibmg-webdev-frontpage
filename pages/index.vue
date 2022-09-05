@@ -10,7 +10,7 @@
                     alt="National Institute of Biomedical Genomics, Logo"
                 />
                 <div class="ml-2 text-3xl font-bold text-blue-900">
-                    Web Development
+                    Web Portals - Research
                 </div>
             </div>
             <div
@@ -55,16 +55,16 @@ export default {
     data: () => ({
         contents: [
             {
-                name: "dbGENVOC",
-                summary:
-                    "dbGENVOC, a comprehensive, flexible database framework, developed with an aim to allow potential users to access, query, browse and download clinically relevant somatic and germline variation data from Indian oral cancer patients.",
-                url: "https://research.nibmg.ac.in/dbcares",
-            },
-            {
                 name: "INSACOG DataHub",
                 summary:
                     "INSACOG DataHub developed & maintained at National Institute of Biomedical Genomics is an effort to store and analyze the whole genome sequence of SARS-CoV-2.",
                 url: "https://research.nibmg.ac.in/insacog",
+            },
+            {
+                name: "dbGENVOC",
+                summary:
+                    "dbGENVOC, a comprehensive, flexible database framework, developed with an aim to allow potential users to access, query, browse and download clinically relevant somatic and germline variation data from Indian oral cancer patients.",
+                url: "https://research.nibmg.ac.in/dbcares",
             },
         ],
     }),
