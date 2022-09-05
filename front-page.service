@@ -1,0 +1,15 @@
+[Unit]
+Description="Runs script for starting the front page for research.nibmg.ac.in"
+
+[Service]
+User=vmuser
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/home/vmuser/nibmg-webdev-frontpage
+ExecStart=/bin/bash /home/vmuser/nibmg-webdev-frontpage/front.page.run.script
+
+[Install]
+WantedBy=multi-user.target
+
+# ReadME
+# Put this file in /etc/systemd/system/front-page.service
